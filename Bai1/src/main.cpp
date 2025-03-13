@@ -24,7 +24,7 @@ void loop() {
   if (lux < 0) {
     Serial.println("[Error] cannot read");
   } else {
-    Serial.print("lux sensor: ");
+    Serial.print("light sensor: ");
     Serial.print(lux);
     Serial.println(" lx");
   }
