@@ -1,9 +1,9 @@
 Dependencies for Project 'I2C', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (..\USER\bh1750.h)(0x67DE9CCC)()
+F (..\USER\bh1750.h)(0x67DEB3B4)()
 F (..\USER\tim.h)(0x67DE9B8D)()
 F (..\USER\uart.h)(0x67DE9B75)()
-F (..\USER\tim.c)(0x67DE9C75)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
+F (..\USER\tim.c)(0x67DEB39D)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
 I (..\USER\tim.h)(0x67DE9B8D)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (.\RTE\_Target_1\RTE_Components.h)(0x67DD8FC2)
@@ -22,7 +22,7 @@ I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPer
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-F (..\USER\uart.c)(0x67DE9B65)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+F (..\USER\uart.c)(0x67DEB29E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (..\USER\uart.h)(0x67DE9B75)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (.\RTE\_Target_1\RTE_Components.h)(0x67DD8FC2)
@@ -41,7 +41,7 @@ I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPer
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-F (..\USER\main.c)(0x67DEA5A1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\USER\main.c)(0x67E4A375)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (.\RTE\_Target_1\RTE_Components.h)(0x67DD8FC2)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
@@ -61,9 +61,9 @@ I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPer
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
 I (..\USER\tim.h)(0x67DE9B8D)
 I (..\USER\uart.h)(0x67DE9B75)
-I (..\USER\bh1750.h)(0x67DE9CCC)
+I (..\USER\bh1750.h)(0x67DEB3B4)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
-F (..\USER\bh1750.c)(0x67DE9D09)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\bh1750.o --omf_browse .\objects\bh1750.crf --depend .\objects\bh1750.d)
+F (..\USER\bh1750.c)(0x67DEB1EF)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\bh1750.o --omf_browse .\objects\bh1750.crf --depend .\objects\bh1750.d)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
 I (.\RTE\_Target_1\RTE_Components.h)(0x67DD8FC2)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
@@ -81,7 +81,7 @@ I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPer
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
-I (..\USER\bh1750.h)(0x67DE9CCC)
+I (..\USER\bh1750.h)(0x67DEB3B4)
 F (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\misc.c)(0x67347883)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-IC:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\misc.h)(0x61AD876E)
 I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
